@@ -15,4 +15,4 @@ Tips:
 
 # Debugging tips:
 1. It complaining about `data.yaml` not found: I think the `!pip install "ultralytics<=8.3.40" supervision` in one of cells in the notebook actually pip installs globally, and not in the conda environment. Conda and pip works together weirdly. 
-    - Fix: Read the error message, it points you to a `.config` folder (mine is in `~/.config`) that has an Ultralytics folder with a file inside with a hardcoded path to a dataset. If that path is wrong, I suggest just deleting the Ultralytics folder and rerun the notebook, it will create the Ultralytics folder again with the correct hardcoded path.
+    - Fix: Read the error message, it points you to a `.config` folder (mine is in `~/.config`) that has an Ultralytics folder with a `settings.json` inside with a hardcoded path to a dataset. If that path is wrong, I suggest just deleting the Ultralytics folder and rerun the notebook, it will create the Ultralytics folder again with the correct hardcoded path.
