@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+# Except files:
+!HW4_yolo11_object_detection.ipynb
+!environment.yml
+!README.md
+!.gitignore
+
+# And except folders (and its contents):
+!HW4/
