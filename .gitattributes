@@ -3,3 +3,8 @@ EE526_HW4_Yolo11_custom_dataset/yolo11s_custom_pool.pt filter=lfs diff=lfs merge
 EE526_HW4_Yolo11_custom_dataset/yolo11m_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
 EE526_HW4_Yolo11_custom_dataset/yolo11l_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
 EE526_HW4_Yolo11_custom_dataset/yolo11x_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
+EE526_HW4_Yolo11_custom_dataset/models/custom_pool/yolo11l_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
+EE526_HW4_Yolo11_custom_dataset/models/custom_pool/yolo11m_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
+EE526_HW4_Yolo11_custom_dataset/models/custom_pool/yolo11n_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
+EE526_HW4_Yolo11_custom_dataset/models/custom_pool/yolo11s_custom_pool.pt filter=lfs diff=lfs merge=lfs -text
+EE526_HW4_Yolo11_custom_dataset/models/custom_pool/yolo11x_custom_pool.pt filter=lfs diff=lfs merge=lfs -text

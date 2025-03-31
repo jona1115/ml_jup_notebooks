@@ -11,3 +11,5 @@
 # And except folders (and its contents):
 !HW4/
 !HW4/**
+!models/
+!models/**
