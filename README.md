@@ -5,7 +5,7 @@ IMPORTANT:
 
 Cloning the repo:
 1. Install Git LFS, on Linux, run: `sudo apt install git-lfs` then `git lfs install`
-2. Clone: `git@github.com:jona1115/ml_jup_notebooks.git`
+2. Clone: `git clone git@github.com:jona1115/ml_jup_notebooks.git`
 3. `cd ml_jup_notebooks`
 4. `git lfs pull`
 
