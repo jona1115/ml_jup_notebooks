@@ -6,6 +6,7 @@
 !environment.yml
 !README.md
 !.gitignore
+!*_custom_*.pt
 
 # And except folders (and its contents):
 !HW4/

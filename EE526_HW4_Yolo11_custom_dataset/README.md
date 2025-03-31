@@ -13,6 +13,9 @@
 Tips:
 1. If you want jupter notebook to run in the background, you can use `screen`.
 
+# Modification note:
+1. If you trained other models and want to track it using Git LFS, in the parent directory run: `git lfs track EE526_HW4_Yolo11_custom_dataset/*custom*.pt`. 
+
 # Debugging tips:
 1. It complaining about `data.yaml` not found: I think the `!pip install "ultralytics<=8.3.40" supervision` in one of cells in the notebook actually pip installs globally, and not in the conda environment. Conda and pip works together weirdly. 
     - Fix: Read the error message, it points you to a `.config` folder (mine is in `~/.config`) that has an Ultralytics folder with a `settings.json` inside with a hardcoded path to a dataset. If that path is wrong, I suggest just deleting the Ultralytics folder and rerun the notebook, it will create the Ultralytics folder again with the correct hardcoded path.

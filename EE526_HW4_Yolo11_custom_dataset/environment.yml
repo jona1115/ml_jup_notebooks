@@ -1,8 +1,6 @@
 name: EE526
 channels:
   - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
@@ -105,6 +103,7 @@ dependencies:
   - parso=0.8.4=py313h06a4308_0
   - pcre2=10.42=hebb0a14_1
   - pexpect=4.8.0=pyhd3eb1b0_3
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pip=25.0=py313h06a4308_0
   - platformdirs=3.10.0=py313h06a4308_0
   - prometheus_client=0.13.1=pyhd3eb1b0_0
@@ -208,4 +207,4 @@ dependencies:
       - tzdata==2025.2
       - ultralytics==8.3.40
       - ultralytics-thop==2.0.14
-prefix: /home/vm-user/anaconda3/envs/EE526
+prefix: /home/jonathan/anaconda3/envs/EE526
