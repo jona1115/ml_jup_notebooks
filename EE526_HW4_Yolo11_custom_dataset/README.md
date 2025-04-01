@@ -15,6 +15,7 @@
 
 # Modification note:
 1. If you trained other models and want to track it using Git LFS, in the parent directory, run: `git lfs track EE526_HW4_Yolo11_custom_dataset/models/custom_*/*_custom_*.pt`. 
+    - You can use the globstar ("**") for easier tracking so you don't have to type the full path for all custom models. E.g., run `git lfs track **/*_custom_*.pt`. Note: if you haven't already, to use globstar, you need to enable it. On linux, run `shopt -s globstar`.
 
 # Debugging tips 🔪🐞:
 1. It is complaining about `data.yaml` not found: I think the `!pip install "ultralytics<=8.3.40" supervision` in one of the cells in the notebook actually pip installs globally, and not in the conda environment. Conda and pip works together weirdly. 
