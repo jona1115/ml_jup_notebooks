@@ -1,4 +1,6 @@
-> This folder contains some of my modifications for stuff from [the O'Reilly tutorial on generative adversarial networks](https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners)
+> This folder contains some of my modifications for stuff from [the O'Reilly tutorial on generative adversarial networks](https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners), below are the original README content:
+
+---
 
 # Introduction to generative adversarial networks
 
