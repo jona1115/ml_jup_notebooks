@@ -5,9 +5,10 @@
 
 # 🖨️ Cloning the repo:
 1. Install Git LFS, on Linux, run: `sudo apt install git-lfs` then `git lfs install`
-2. Clone: `git clone git@github.com:jona1115/ml_jup_notebooks.git`
+2. Clone: `git clone --recursive git@github.com:jona1115/ml_jup_notebooks.git`
 3. `cd ml_jup_notebooks`
 4. Pull large files from GitHub LFS: `git lfs pull`
+5. This repo uses submodules, to update them too: `git submodule update --init --recursive`
 
 # Other Notes:
 1. This is a repo to store all my machine learning (ML) Jupyter Notebooks. Each folder should be a totally independent project.
