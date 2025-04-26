@@ -1,0 +1,3 @@
+[submodule "trans2_encn"]
+	path = trans2_encn
+	url = git@github.com:jona1115/trans2_encn.git
